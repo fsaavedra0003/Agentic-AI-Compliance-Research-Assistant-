@@ -8,3 +8,4 @@ Built with **LangGraph, vector databases, and LLMs** to automate **compliance re
 ## 🚀 Key Features  
 
 - 📥 **Document Ingestion**: Upload PDFs, DOCX, or URLs of regulations and guidelines.  
+- 🔎 **Retriever Agent**: Hybrid search over vector DB + keyword for precise context.  
