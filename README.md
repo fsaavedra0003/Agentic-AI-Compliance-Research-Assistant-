@@ -10,3 +10,4 @@ Built with **LangGraph, vector databases, and LLMs** to automate **compliance re
 - 📥 **Document Ingestion**: Upload PDFs, DOCX, or URLs of regulations and guidelines.  
 - 🔎 **Retriever Agent**: Hybrid search over vector DB + keyword for precise context.  
 - 📝 **Summarizer Agent**: Extracts obligations, penalties, and deadlines in structured form.  
+- ✅ **Fact-Checker Agent**: Verifies claims using trusted sources & web search.  
