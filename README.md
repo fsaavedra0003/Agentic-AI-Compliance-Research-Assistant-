@@ -15,7 +15,7 @@ Built with **LangGraph, vector databases, and LLMs** to automate **compliance re
 - 📊 **Compliance Reports**: Generates human-readable **PDF/Markdown** and machine-readable **JSON** with citations.  
 
 ---
-## 🎯 Business Case  
+
 
 Companies in **finance, insurance, consulting, and enterprise IT** face rising compliance complexity (e.g., **CSRD, GDPR, ESG reporting, AI Act**).  
 Analysts spend **hours manually reading and validating documents**
