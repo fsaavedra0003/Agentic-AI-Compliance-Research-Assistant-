@@ -16,3 +16,4 @@ app.include_router(research.router, prefix="/v1")
 
 @app.get("/health")
 def health():
+    return {"status": "ok"}
