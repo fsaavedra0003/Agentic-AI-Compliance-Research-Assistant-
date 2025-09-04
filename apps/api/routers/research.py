@@ -12,3 +12,7 @@ from src.retrieval.vectorstore import ensure_index
 
 load_dotenv()
 router = APIRouter(tags=["research"])
+
+
+class IngestResponse(BaseModel):
+    added_files: List[str]
