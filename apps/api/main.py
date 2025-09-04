@@ -7,3 +7,4 @@ app = FastAPI(title="Compliance Research Assistant - API", version="0.1.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
+    allow_methods=["*"],
