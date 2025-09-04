@@ -5,3 +5,5 @@ from apps.api.routers import research
 app = FastAPI(title="Compliance Research Assistant - API", version="0.1.0")
 
 app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
