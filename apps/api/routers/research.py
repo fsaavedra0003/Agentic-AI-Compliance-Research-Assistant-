@@ -24,3 +24,4 @@ async def ingest_endpoint(
     files: Optional[List[UploadFile]] = None,
     url: Optional[str] = Form(None), 
 ):
+    raw_dir = os.getenv("RAW_DOCS_PATH", "./data/raw")
