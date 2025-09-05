@@ -31,5 +31,7 @@ async def ingest_endpoint(
     if url:
         path = await crawl_url_to_text(url, raw_dir)
         added.append(path)
-        
+
     if files:
+        more = await save_and_prepare_docs(files, raw_dir)
+        
