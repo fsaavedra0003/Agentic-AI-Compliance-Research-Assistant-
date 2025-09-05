@@ -26,3 +26,4 @@ async def ingest_endpoint(
 ):
     raw_dir = os.getenv("RAW_DOCS_PATH", "./data/raw")
     os.makedirs(raw_dir, exist_ok=True)
+    added = []
