@@ -22,3 +22,4 @@ class IngestResponse(BaseModel):
 @router.post("/ingest", response_model=IngestResponse)
 async def ingest_endpoint(
     files: Optional[List[UploadFile]] = None,
+    url: Optional[str] = Form(None),
