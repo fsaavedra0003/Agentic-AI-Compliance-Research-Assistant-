@@ -17,3 +17,6 @@ router = APIRouter(tags=["research"])
 class IngestResponse(BaseModel):
     added_files: List[str]
     index_path: str
+
+
+@router.post("/ingest", response_model=IngestResponse)
