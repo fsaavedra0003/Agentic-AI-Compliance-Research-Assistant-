@@ -29,3 +29,4 @@ async def ingest_endpoint(
     added = []
 
     if url:
+        path = await crawl_url_to_text(url, raw_dir)
