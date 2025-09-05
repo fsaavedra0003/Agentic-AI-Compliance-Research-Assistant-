@@ -34,4 +34,4 @@ async def ingest_endpoint(
 
     if files:
         more = await save_and_prepare_docs(files, raw_dir)
-        
+        added.extend(more)
