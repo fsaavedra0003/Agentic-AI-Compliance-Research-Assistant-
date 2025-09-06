@@ -35,3 +35,6 @@ async def ingest_endpoint(
     if files:
         more = await save_and_prepare_docs(files, raw_dir)
         added.extend(more)
+
+    index_path = os.getenv("VECTOR_INDEX_PATH", "./data/index/faiss_index")
+    ensure_index(raw_dir, index_path)  # builds or updates
