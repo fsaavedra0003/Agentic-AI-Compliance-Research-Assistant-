@@ -38,3 +38,7 @@ async def ingest_endpoint(
 
     index_path = os.getenv("VECTOR_INDEX_PATH", "./data/index/faiss_index")
     ensure_index(raw_dir, index_path)  # builds or updates
+
+    return IngestResponse(added_files=added, index_path=index_path)
+
+@router.post("/query")
