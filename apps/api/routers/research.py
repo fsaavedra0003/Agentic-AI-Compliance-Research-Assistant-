@@ -43,3 +43,5 @@ async def ingest_endpoint(
 
 @router.post("/query")
 async def query_endpoint(req: ResearchRequest):
+    # Build the minimal graph: retrieve -> summarize
+    app = build_graph()
