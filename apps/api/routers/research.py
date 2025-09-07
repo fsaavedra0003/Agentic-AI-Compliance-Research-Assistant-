@@ -49,6 +49,6 @@ async def query_endpoint(req: ResearchRequest):
     result: GraphState = app.invoke(state)
     return {
          "query": req.query,
-         "answer": result.
+         "answer": result
          
      
