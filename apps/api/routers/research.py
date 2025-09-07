@@ -48,3 +48,6 @@ async def query_endpoint(req: ResearchRequest):
     state: GraphState = {"query": req.query, "docs": [], "answer": "", "citations": []}
     result: GraphState = app.invoke(state)
     return {
+         "query": req.query,
+         "answer": result.get("answer"),
+         "citations": result.get("citations", []),
