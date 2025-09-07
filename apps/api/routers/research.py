@@ -50,5 +50,5 @@ async def query_endpoint(req: ResearchRequest):
     return {
          "query": req.query,
          "answer": result.get("answer"),
-         "citations": result.get("citatio
+         "citations": result.get("
      
