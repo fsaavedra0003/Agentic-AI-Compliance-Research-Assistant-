@@ -46,7 +46,7 @@ async def query_endpoint(req: ResearchRequest):
     # Build the minimal graph: retrieve -> summarize
     app = build_graph()
     state: GraphState = {"query": req.query, "docs": [], "answer": "", "citations": []}
-    result: 
+    
     
          
          
