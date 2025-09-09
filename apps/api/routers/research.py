@@ -41,7 +41,7 @@ async def ingest_endpoint(
 
     return IngestResponse(added_files=added, index_path=index_path)
 
-@router.post("")
+@router.post
  
     
     
